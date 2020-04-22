@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./assignment1.component.css']
 })
 export class Assignment1Component {
-
+  Value:string;
+  onChange(Value: string): void {  
+    this.Value=Value;
+    console.log(this.Value);
+  }
 }

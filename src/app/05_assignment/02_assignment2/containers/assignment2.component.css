@@ -3,6 +3,37 @@
   border: 2px solid darkmagenta;
 }
 
-.active {
+
+table, th , td {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 23%;
+  height: 100%;
+}
+
+table tr:nth-child(even) {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+table tr:nth-child(odd) {
+  background-color: #ddd;
+  cursor: pointer;
+}
+table tr:hover{
+  background-color: #ddd;
+}
+table tbody .active {
   background-color: #0c5460;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 1%;
+    /* margin-left: 40%; */
 }

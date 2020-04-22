@@ -14,10 +14,12 @@ export interface Todo {
 })
 export class AssignmentComponent {
 
-  todos: Todo[] = [
+ public todos: Todo[] = [
     { id: 'TODO_1', type: 'Teach TypeScript', description: 'TypeScript is an awesome tech', completed: false },
     { id: 'TODO_2', type: 'Teach Angular', description: 'Angular is the future', completed: true },
     { id: 'TODO_3', type: 'Teach NodeJS', description: 'Much appreciated server-side tech', completed: true },
     { id: 'TODO_4', type: 'Teach JavaScript', description: 'A ubiquitous language in browser', completed: false }
   ];
+
+ 
 }
